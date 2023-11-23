@@ -1,1 +1,21 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';/*# sourceMappingURL=index.css.map */
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    width: 363px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 648px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1320px;
+  }
+}/*# sourceMappingURL=index.css.map */
